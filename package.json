@@ -1,0 +1,15 @@
+{
+  "name": "nodejs-grpc-socketio-proxy",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "handshake": "node ./bin/handshake",
+    "client": "node ./bin/client",
+    "server": "node ./bin/server"
+  },
+  "main": "main.js",
+  "dependencies": {
+    "@grpc/proto-loader": "^0.3.0",
+    "grpc": "^1.24.2"
+  }
+}
